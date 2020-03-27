@@ -47,4 +47,20 @@
 - You notice a couple data fields always together like fields in some classes or arguments in some methods.
 
 #### Solutions
-- These data fields out to be their own object.
+- These data fields ought to be their own object.
+
+## Primitive Obsession
+
+#### Symptoms
+- Using primitive types like a set of integers to define objects in your domain.
+
+#### Solutions
+- Represent your Domain objects with classes and reap the benefits.
+
+## Case statements
+
+#### Symptoms
+- Often having to switch on the same conditions in your system.
+
+#### Solutions
+- This is a good step for refactoring. Can think of Polymorphism in this case where you can replace branches of your case statement with passing messages to one of your new objects.
